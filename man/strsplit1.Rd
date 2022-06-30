@@ -4,7 +4,7 @@
 \alias{strsplit1}
 \title{Split a string}
 \usage{
-strsplit1(x, split)
+strsplit1(x, split = ",")
 }
 \arguments{
 \item{x}{A single character vector}
@@ -19,5 +19,9 @@ Split a string
 }
 \examples{
  x <- "alfa,bravo,charlie,delta"
- strsplit1(x,split=",")
+ output<-strsplit1(x,split=",")
+ output[3]=="charlie"
+ y<-"alfa,bravo,charlie,delta"
+ strsplit1(y)
+ strsplit1(y,split="a")
 }

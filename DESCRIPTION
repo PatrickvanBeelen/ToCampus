@@ -1,10 +1,10 @@
-Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Package: ToCampus
+Title: Github package connected to Rstudio in campus
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Patrick", "van Beelen", , "patrick.van.beelen@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = '0000-0002-5835-3787'))
+Description: Test my first package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

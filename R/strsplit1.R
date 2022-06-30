@@ -8,7 +8,11 @@
 #'
 #' @examples
 #'  x <- "alfa,bravo,charlie,delta"
-#'  strsplit1(x,split=",")
-strsplit1 <- function(x, split) {
+#'  output<-strsplit1(x,split=",")
+#'  output[3]=="charlie"
+#'  y<-"alfa,bravo,charlie,delta"
+#'  strsplit1(y)
+#'  strsplit1(y,split="a")
+strsplit1 <- function(x, split=",") {
   strsplit(x, split = split)[[1]]
 }
